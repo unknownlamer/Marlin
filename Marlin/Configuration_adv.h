@@ -1106,7 +1106,7 @@
 
   // Actual motor currents in Amps. The number of entries must match DIGIPOT_I2C_NUM_CHANNELS.
   // These correspond to the physical drivers, so be mindful if the order is changed.
-  #define DIGIPOT_I2C_MOTOR_CURRENTS { 1.2, 1.3, 1.2, 0.8, 0.8 } // AZTEEG_X5_GT
+  #define DIGIPOT_I2C_MOTOR_CURRENTS { 1.6, 1.2, 1.2, 0.8, 0.8 } // AZTEEG_X5_GT
 
   //#define DIGIPOT_USE_RAW_VALUES    // Use DIGIPOT_MOTOR_CURRENT raw wiper values (instead of A4988 motor currents)
 
