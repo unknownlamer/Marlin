@@ -1885,14 +1885,9 @@
 
 #if EITHER(MESH_BED_LEVELING, AUTO_BED_LEVELING_UBL)
   // Override the mesh area if the automatic (max) area is too large
-  //#define MESH_MIN_X MESH_INSET
+  #define MESH_MIN_X 45
   //#define MESH_MIN_Y MESH_INSET
-
-  // bed is shifted a bit to one side
-  // FIXME: probably better to just define MESH_MAX_MIN, assuming
-  // other three points don't need to be shifted that far
-  #define MESH_MAX_X (_MIN(X_MAX_BED - (20), X_MAX_POS))
-
+  //#define MESH_MAX_X X_BED_SIZE - (MESH_INSET)
   //#define MESH_MAX_Y Y_BED_SIZE - (MESH_INSET)
 #endif
 
