@@ -2206,7 +2206,7 @@
 // Viki 2.0 or mini Viki with Graphic LCD
 // https://www.panucatt.com
 //
-#define VIKI2
+//#define VIKI2
 //#define miniVIKI
 
 //
@@ -2628,7 +2628,7 @@
 // Temperature status LEDs that display the hotend and bed temperature.
 // If all hotends, bed temperature, and target temperature are under 54C
 // then the BLUE led is on. Otherwise the RED led is on. (1C hysteresis)
-#define TEMP_STAT_LEDS
+//#define TEMP_STAT_LEDS
 
 // Support for the BariCUDA Paste Extruder
 //#define BARICUDA
